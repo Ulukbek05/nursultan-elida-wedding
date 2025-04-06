@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: #2d2d2d;
+}
+
+.invite-text {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.event-details p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.rsvp-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.rsvp-button:hover {
+  background-color: #45a049;
+}
